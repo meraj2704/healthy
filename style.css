@@ -1,0 +1,115 @@
+body {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flexible {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    margin: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.half img {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.orange {
+    color: orange;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.order {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.left img {
+    width: 50%;
+}
+
+.contact {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.contact p {
+    text-align: left;
+}
+
+.recipe h2,
+p {
+    text-align: center;
+}
+
+.items {
+    align-items: center;
+
+}
+
+.img img {
+    width: 100%;
+}
+
+.food {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.description p {
+    text-align: left;
+}
+
+.social-site {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 10px 40px gray;
+    margin: 100px;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.p {
+    margin: 0;
+    padding: 0;
+}
+
+.h {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    color:#5B5B5B;
+    text-align: center;
+    background-color: #0B0D17;
+    height: 256px;
+    width: 1440px;
+    padding-top:40px ;
+
+}
